@@ -1,0 +1,44 @@
+body{
+    background-color: lightgray;
+}
+header {
+    background-color: #b4cded;
+    color:black;
+    padding: 10px 15vw;
+}
+h1{
+    text-align: center;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:normal;
+}
+nav {
+    background-color: black;
+    color:white;
+    padding: 10px 15vw;
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+}
+footer{
+    background-color:#344966 ;
+    padding:10px 15vw;
+    color: white;
+    text-align: center;
+    height: 15vh;
+}
+main{
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw;
+    text-align: center;
+    align-items: center;
+}
+#images{
+    margin: 100px;
+}
+main image{
+    width: 30%;
+}
