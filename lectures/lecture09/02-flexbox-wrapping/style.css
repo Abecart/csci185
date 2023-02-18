@@ -1,0 +1,50 @@
+/* I add this line to all of my CSS files by default */
+body * {
+    box-sizing: border-box;
+}
+
+/*
+----------
+Properties
+----------
+align-items: 		(flex-start, flex-end, space-around, space-between, center)
+justify-content: 	(same as align-items)
+flex-direction: 	(row, column, row-reverse, column-reverse)
+flex-wrap: 		    (no-wrap, wrap)
+*/
+main, section {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section{
+    width:calc(25%-20px);
+    margin-bottom: 20px;
+}
+body{
+    margin: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    /* Your code here */
+    section{
+        width:calc(50%-20px);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* Your code here */
+    section{
+        width: 100%;
+    }
+}
+
