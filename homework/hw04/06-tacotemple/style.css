@@ -1,3 +1,41 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+.card{
+    border: solid 1px black;
+    margin: 5vh;
+    width: auto;
+    font-size: small;
+    width: 75vh;
+    height: 25vh;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap:1fr 1fr;
+}
+section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align:justify;
+    padding: 2vw;
+
+}
+.card img{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content:flex-start;
+}
+p{
+font-family:Arial, Helvetica, sans-serif;
+font-size:large;
+color:gray;
+display: flex;
+flex-direction:row;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
