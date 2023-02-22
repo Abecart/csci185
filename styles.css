@@ -43,7 +43,7 @@ header {
 }
 #quizzes, #tutorials, #homework, #inspiration, #class-exercises{
     border: solid 5px #90AA86;
-    margin: 100pxpx;
+    margin: 25px;
     width:50%;
     display: grid;
     grid-template-rows:35px;
