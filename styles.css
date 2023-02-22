@@ -1,14 +1,77 @@
 /* You're welcome to change any of this! */
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: Arial, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
 }
+footer{
+    display: flex;
+    background:rgb(25, 64, 25);
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+}
+footer p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    padding-bottom: 20px;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    
+    background-image: url(lectures/background-media/in-class-exercise/pexels-sohail-nachiti-807598.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+#quizzes, #tutorials, #homework, #inspiration, #class-exercises{
+    border: solid 5px #90AA86;
+    margin: 100pxpx;
+    width:50%;
+    display: grid;
+    grid-template-rows:35px;
+    font-family: 'MuseoModerno', cursive;
+    color: #554348;
+    align-items: center;
+}
+a{
+    color: #90AA86;
+    align-items: center;
+}
+#homework p{
+    color: #554348;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content:flex-start;
+    border: solid 5px #554348;
+    width: 50%;
+}
+body{
+    background-image: url(lectures/background-media/in-class-exercise/pexels-ekaterina-bolovtsova-7307623.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+
+
+
