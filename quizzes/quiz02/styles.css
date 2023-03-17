@@ -36,17 +36,16 @@ header img, footer img {
 
 h1, h2, h3{
     font-family: 'Orbitron', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
+    text-align: left;
 }
-h1{
-    text-align: center;
-}
+
 h1,h2{
     margin-top: 5%;
 }
 .card{
     border: solid 1px black;
-    margin: 5vh;
+    margin: 2vh;
     width: auto;
     font-size: small;
     width: 75vh;
@@ -54,14 +53,19 @@ h1,h2{
     transition: 0.2s ease-out;
 
 }
+p{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
 
 div{
     grid-template-columns: 1fr 1fr ;
     column-gap:1fr 1fr;
     display: grid;
     grid-column: 2;
-
 }
+
 section{
     display: flex;
     justify-content: flex-end;
@@ -71,14 +75,14 @@ section{
 
 }
 .cards img{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     display: flex;
     justify-content:flex-start;
 }
 
 .card:hover{
-    background-color: blue;
+    background-color:#013672;
     color: white;
 }
 
