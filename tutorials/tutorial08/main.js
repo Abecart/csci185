@@ -40,7 +40,7 @@ function mouseDragged(){
     mouseX, mouseY-size/2, 
     mouseX-size/2, mouseY+size/2 , 
     mouseX+size/2,mouseY+size/2 
-        );
+        )
     }
 }
 
