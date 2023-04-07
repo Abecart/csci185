@@ -16,6 +16,7 @@ async function setup() {
 // works).
 function draw() {
     x += speed;
+    width +=3;
 
     clear();
     noFill();
