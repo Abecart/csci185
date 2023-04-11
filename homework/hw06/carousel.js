@@ -14,9 +14,9 @@ const photos = [
 let idx = 0;
 
 function showImage() {
-    console.log('show image');
- document.querySelector('#numberone').src=photo[idx];
- document.querySelector('.caption').innerHTML= '${idx+1} out of ${photos.length}';
+    console.log('Show image');
+ document.querySelector('#numberone').src = photos[idx];
+ document.querySelector('.caption').innerHTML= `${idx+1} out of ${photos.length}`;
 }
 
 function forward() {
@@ -35,8 +35,8 @@ function back() {
     console.log('back');
    showImage();
 
-   if(idx===photos.length+1){
-    idx=0;
+   if(idx===0){
+    idx=photos.length-1;
    }
    else{
     --idx;
