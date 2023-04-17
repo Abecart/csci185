@@ -41,7 +41,7 @@ header {
     background-position-x: center;
     background-position-y: center;
 }
-#quizzes, #tutorials, #homework, #inspiration, #class-exercises{
+#quizzes, #tutorials, #homework, #inspiration, #class-exercises, #final{
     border: solid 5px #90AA86;
     margin: 25px;
     width:50%;
