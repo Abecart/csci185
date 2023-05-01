@@ -2362,6 +2362,8 @@ input, select, textarea {
 			border-radius: 5%;
 			color:#3A2D32 ;
 			padding: 2em;
+			color: black;
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 
 		}
 		
